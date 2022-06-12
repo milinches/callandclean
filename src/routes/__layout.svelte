@@ -3,5 +3,7 @@
     import '../app.css'
 </script>
 
-<Nav />
-<slot></slot>
+<div class="w-full min-h-screen">
+    <Nav />
+    <slot></slot>
+</div>
