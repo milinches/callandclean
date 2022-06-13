@@ -1,5 +1,6 @@
 <script>
     import Home from '../components/Home/Home.svelte'
+    import HomeServices from '../components/Home/HomeServices.svelte'
 </script>
 
 <svelte:head>
@@ -7,3 +8,4 @@
 </svelte:head>
 
 <Home />
+<HomeServices />
