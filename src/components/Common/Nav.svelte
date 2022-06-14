@@ -17,7 +17,7 @@
 <nav class="py-3.5 px-6 md:flex justify-between items-center bg-white w-10/12">
     <div class="flex items-center cursor-pointer">
         <span class="ml-0 md:ml-20">
-            <a href="/"><img src="/assets/images/logo.png" alt="call and clean logo" class="w-40"></a>
+            <a href="/"><img src="/favicon.png" alt="call and clean logo" class="w-10"></a>
         </span>
     </div>
 
