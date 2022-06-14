@@ -1,8 +1,8 @@
-<div class="flex justify-center items-center bg-white">
+<div class="flex justify-center items-center bg-white mb-20">
     <div class="flex flex-col md:flex-row justify-between md:mt-15 mt-20 items-center w-10/12">
         <div class="heading">
             <h1 class="md:text-[2.1rem] md:font-extrabold text-center md:text-justify text-[1.8rem] font-extrabold pb-4 tracking-normal leading-10">Services</h1>
-            <p class="md:text-lg text-base font-medium md:text-justify text-center text-[#21312a]">
+            <p class="md:text-lg text-base font-medium md:text-left text-center text-[#21312a]">
                 Convenience you can depend on.<br>Always.
             </p>
         </div>
@@ -54,7 +54,7 @@
     }
 
     .explore__button:hover {
-        background-color: rgb(229, 238, 229);
-        transition: 4s linear;
+        background-color: rgb(202, 212, 202);
+        transition: 0.7s linear;
     }
 </style>

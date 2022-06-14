@@ -6,7 +6,7 @@
                 <img src="/assets/images/polygon.png" alt="polygon" class="poly" width="30">
                 <img src="/assets/images/rectangle.png" alt="rectangle" class="rect" width="30">
             </div>
-            <h1 class="h__one md:text-6xl md:font-extrabold text-center md:text-justify text-5xl font-extrabold pb-4 tracking-normal text-[#03A84E] leading-10">
+            <h1 class="h__one md:text-6xl md:font-extrabold text-center md:text-left text-5xl font-extrabold pb-4 tracking-normal text-[#03A84E] leading-10">
                 Say goodbye
                 <br>
                 <span class="leading-4">
