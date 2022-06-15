@@ -7,7 +7,25 @@
                     <span class="self-center text-base text-black font-semibold whitespace-nowrap">callandclean</span>
                 </a>
 				<p class="text-base text-black pb-3 mt-4 leading-7">Making the quality<br>of life better.</p>
-			</div>
+                <div class="mt-7 flex">
+                    <!-- svelte-ignore a11y-missing-attribute -->
+                    <a href="https://instagram.com/callandclean.ng?igshid=YmMyMTA2M2Y=" target="_blank" class="pr-4">
+                        <img src="/assets/icons/Instagram.svg" class="w-6"/>
+                    </a>
+                    <a href="mailto:callandclean.ng@gmail.com" target="_blank" class="pr-4">
+                        <!-- svelte-ignore a11y-missing-attribute -->
+                        <img src="/assets/icons/Mail.svg" class="w-6"/>
+                    </a>
+                    <a href="https://youtube.com/channel/UCwz5A5X0Sdfu9rj3v6oVYxA" target="_blank" class="pr-4">
+                        <!-- svelte-ignore a11y-missing-attribute -->
+                        <img src="/assets/icons/YouTube.svg" class="w-6"/>
+                    </a>
+                    <a href="tel:+2349038463612" target="_blank" class="pr-4">
+                        <!-- svelte-ignore a11y-missing-attribute -->
+                        <img src="/assets/icons/Phone.svg" class="w-6"/>
+                    </a>
+                </div>
+            </div>
 			<div class="md:mb-0 mb-10">
 				<div class="text-lg font-bold text-black pb-5">
 					<h1>Company</h1>
@@ -33,10 +51,6 @@
 				<p class="text-base text-black pb-3">Privacy Policy</p>
 			</div>
 		</div>
-		<div class="md:hidden w-11/12 flex">
-			<i class="fa-brands fa-instagram"></i>
-			<i class="bi bi-twitter text-white text-2xl p-5" />
-			<i class="bi bi-discord text-white text-2xl p-5" />
-		</div>
+		
 	</div>
 </footer>
