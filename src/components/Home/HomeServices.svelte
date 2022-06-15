@@ -1,4 +1,4 @@
-<div class="flex justify-center items-center bg-white mb-20">
+<div class="flex justify-center items-center bg-white md:mb-10 mb-5">
     <div class="flex flex-col md:flex-row justify-between md:mt-15 mt-20 items-center w-10/12">
         <div class="heading">
             <h1 class="md:text-[2.1rem] md:font-extrabold text-center md:text-justify text-[1.8rem] font-extrabold pb-4 tracking-normal leading-10">Services</h1>

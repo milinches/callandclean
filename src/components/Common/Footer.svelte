@@ -25,6 +25,7 @@
                         <img src="/assets/icons/Phone.svg" class="w-6"/>
                     </a>
                 </div>
+				<p class="text-base text-black pb-3 mt-4 leading-7">+234-903-8463-612</p>
             </div>
 			<div class="md:mb-0 mb-10">
 				<div class="text-lg font-bold text-black pb-5">

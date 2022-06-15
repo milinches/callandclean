@@ -2,7 +2,6 @@
 	const navItems = [
 		{ name: 'Why Us?', link: '/' },
 		{ name: 'Services', link: '/services' },
-		{ name: 'Companies', link: '/' },
 		{ name: 'Pricing', link: '/' },
 		{ name: 'Contact Us?', link: '/' }
 	];
@@ -11,7 +10,7 @@
     const toggleNav = () => open = !open
 </script>
 
-<div class="px-6 shadow md:flex justify-between items-center bg-white">
+<div class="px-6 shadow-lg md:flex justify-between items-center bg-white">
     <div class="flex justify-between items-center">
         <span class="ml-0 md:ml-20">
             <a href="/" class="p-2"><img src="/favicon.png" alt="call and clean logo" class="w-10"></a>

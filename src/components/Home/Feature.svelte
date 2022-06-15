@@ -1,4 +1,4 @@
-<div class="flex flex-col justify-center items-center md:mt-32 mt-16">
+<div class="flex flex-col justify-center items-center md:mt-10 mt-16">
     <div>
         <h1 class="md:text-3xl text-xl text-center font-bold">Featured in</h1>
     </div>
