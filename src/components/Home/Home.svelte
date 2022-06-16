@@ -31,7 +31,7 @@
                 </button>
             </div>
         </div>
-        <div class="circle-div">
+        <div class="circle__div">
             <img src="/assets/images/homepages.png" alt="mockup" width="500" class="md:block hidden">
         </div>
     </div>

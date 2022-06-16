@@ -1,13 +1,12 @@
 <script>
 	const navItems = [
-		{ name: 'Why Us?', link: '/' },
+		{ name: 'Why Us?', link: '/whyus' },
 		{ name: 'Services', link: '/services' },
 		{ name: 'Pricing', link: '/' },
 		{ name: 'Contact Us?', link: '/' }
 	];
 
     let open = false
-    const toggleNav = () => open = !open
 </script>
 
 <div class="px-6 shadow-lg md:flex justify-between items-center bg-white">

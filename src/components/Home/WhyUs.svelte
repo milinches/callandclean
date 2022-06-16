@@ -1,4 +1,4 @@
-<div class="bg-white mt-7">
+<div class="bg-white mt-10">
     <div class="flex flex-col justify-center items-center">
         <div class="text-center w-10/12">
             <h1 class="md:text-3xl text-2xl font-bold p-4">Why you will love us.</h1>

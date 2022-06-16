@@ -1,8 +1,10 @@
 <script>
     import Home from '../components/Home/Home.svelte'
     import HomeServices from '../components/Home/HomeServices.svelte'
-    import Testimonies from '../components/Home/Testimonies.svelte'
+    // @ts-ignore
+    import WhoWeAre from '../components/Home/WhoWeAre.svelte'
     import WhyUs from '../components/Home/WhyUs.svelte'
+    import Testimonies from '../components/Home/Testimonies.svelte'
     import Feature from '../components/Home/Feature.svelte'
 </script>
 
@@ -12,6 +14,7 @@
 
 <Home />
 <HomeServices />
-<Testimonies />
+<WhoWeAre />
 <WhyUs />
+<Testimonies />
 <Feature />

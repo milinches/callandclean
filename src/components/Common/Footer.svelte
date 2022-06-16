@@ -31,7 +31,7 @@
 				<div class="text-lg font-bold text-black pb-5">
 					<h1>Company</h1>
 				</div>
-				<p class="text-base text-black pb-3">About Us</p>
+				<p class="text-base text-black pb-3">Why Us</p>
 				<p class="text-base text-black pb-3">Pricing</p>
 			</div>
 			<div class="md:mb-0 mb-10">
