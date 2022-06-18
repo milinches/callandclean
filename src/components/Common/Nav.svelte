@@ -1,15 +1,14 @@
 <script>
 	const navItems = [
 		{ name: 'Why Us?', link: '/whyus' },
-		{ name: 'Services', link: '/services' },
-		{ name: 'Pricing', link: '/' },
+		{ name: 'Services and Pricing', link: '/services-pricing' },
 		{ name: 'Contact Us?', link: '/' }
 	];
 
     let open = false
 </script>
 
-<div class="px-6 shadow-lg md:flex justify-between items-center bg-white">
+<div class="px-6 shadow-xl md:flex justify-between items-center bg-white">
     <div class="flex justify-between items-center">
         <span class="ml-0 md:ml-20">
             <a href="/" class="p-2"><img src="/assets/images/logo.png" alt="call and clean logo" class="w-36"></a>

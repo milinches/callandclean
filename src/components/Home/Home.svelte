@@ -27,7 +27,7 @@
 
             <div class="flex justify-center items-center md:block">
                 <button class="mt-10 text-base text-white rounded py-5 px-4 bg-[#03A84E] w-[100%] md:w-[40%]">
-                    <a href="/services">Book an appointment</a>
+                    <a href="/services-pricing">Book an appointment</a>
                 </button>
             </div>
         </div>
