@@ -12,7 +12,7 @@
 <div class="px-6 shadow-lg md:flex justify-between items-center bg-white">
     <div class="flex justify-between items-center">
         <span class="ml-0 md:ml-20">
-            <a href="/" class="p-2"><img src="/favicon.png" alt="call and clean logo" class="w-10"></a>
+            <a href="/" class="p-2"><img src="/assets/images/logo.png" alt="call and clean logo" class="w-36"></a>
         </span>
     </div>
 
