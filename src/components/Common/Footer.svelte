@@ -45,7 +45,7 @@
 				<div class="text-lg font-bold text-black pb-5">
 					<h1>Other</h1>
 				</div>
-				<p class="text-base text-black pb-3">FAQs</p>
+				<p class="text-base text-black pb-3"><a href="/faqs">FAQs</a></p>
 				<p class="text-base text-black pb-3">Blog</p>
 				<p class="text-base text-black pb-3">Contact Us</p>
 				<p class="text-base text-black pb-3">Terms & Conditions</p>
