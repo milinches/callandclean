@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-    <title>Call and Clean | FAQs</title>
+    <title>Call and Clean | Contact Us</title>
 </svelte:head>
 
 <ContactUs />

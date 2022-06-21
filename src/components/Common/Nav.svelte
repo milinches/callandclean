@@ -29,7 +29,7 @@
         {/each}
 
         <button class="navbar__btn text-white duration-500 px-6 py-2 mx-3 bg-[#03A84E] rounded">
-            Get started
+            <a href="https://instagram.com/callandclean.ng?igshid=YmMyMTA2M2Y=">Get Started</a>
         </button>
     </ul>
 </div>
