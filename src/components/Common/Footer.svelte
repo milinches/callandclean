@@ -31,23 +31,23 @@
 				<div class="text-lg font-bold text-black pb-5">
 					<h1>Company</h1>
 				</div>
-				<p class="text-base text-black pb-3">Why Us</p>
-				<p class="text-base text-black pb-3">Pricing</p>
+				<p class="text-base text-black pb-3"><a href="/whyus">Why Us</a></p>
+				<p class="text-base text-black pb-3"><a href="/services-pricing">Pricing</a></p>
 			</div>
 			<div class="md:mb-0 mb-10">
 				<div class="text-lg font-bold text-black pb-5">
 					<h1>Services</h1>
 				</div>
-				<p class="text-base text-black pb-3">Cleaning</p>
-				<p class="text-base text-black pb-3">Laundry</p>
+				<p class="text-base text-black pb-3"><a href="/services-pricing">Cleaning</a></p>
+				<p class="text-base text-black pb-3"><a href="/services-pricing">Laundry</a></p>
 			</div>
 			<div class="md:mb-0 mb-10">
 				<div class="text-lg font-bold text-black pb-5">
 					<h1>Other</h1>
 				</div>
-				<p class="text-base text-black pb-3">FAQs</p>
+				<p class="text-base text-black pb-3"><a href="/faqs">FAQs</a></p>
 				<p class="text-base text-black pb-3">Blog</p>
-				<p class="text-base text-black pb-3">Contact Us</p>
+				<p class="text-base text-black pb-3"><a href="/contact-us">Contact Us</a></p>
 				<p class="text-base text-black pb-3">Terms & Conditions</p>
 				<p class="text-base text-black pb-3">Privacy Policy</p>
 			</div>

@@ -8,7 +8,7 @@
 
 <ul class="flex justify-center">
     {#each items as item}
-        <li on:click={() => dispatch('tabChange', item)} class="cursor-pointer px-3 text-lg">
+        <li on:click={() => dispatch('tabChange', item)} class="cursor-pointer px-3 md:text-lg text-sm text-center">
             <div class:active={item === activeItem}>
                 {item}
             </div>

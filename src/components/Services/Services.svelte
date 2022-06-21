@@ -1,7 +1,7 @@
 <script>
     import Tabs from "./Tabs.svelte";
 
-    let items = ['Wash and Fold', 'Dry Cleaning'];
+    let items = ['Wash and Fold', 'Dry Cleaning', 'House Cleaning'];
     let activeItem = 'Wash and Fold';
     const tabChange = (e) => {
         activeItem = e.detail;
@@ -67,46 +67,59 @@
                     </div>
                 </div>
             {:else if activeItem === 'Dry Cleaning'}
-            <div class="flex flex-col justify-center items-center md:mt-20 mt-10 w-[93%]">
-                <div class="flex justify-between items-center">
-                    <div class="md:text-left text-center">
-                        <h1 class="text-3xl font-bold py-4">{activeItem}</h1>
-                        <div class="md:w-3/4 w-auto mt-3">
-                            <p>This is the perfect service for items you want professionally cleaned and returned pressed and on a hanger (this service includes both Dry Cleaning and Launder & Press).</p>
-                            <p class="pt-5">Enjoy premium cleaning from the comfort of your home and never go to the dry cleaners again.</p>
+                <div class="flex flex-col justify-center items-center md:mt-20 mt-10 w-[93%]">
+                    <div class="flex justify-between items-center">
+                        <div class="md:text-left text-center">
+                            <h1 class="text-3xl font-bold py-4">{activeItem}</h1>
+                            <div class="md:w-3/4 w-auto mt-3">
+                                <p>This is the perfect service for items you want professionally cleaned and returned pressed and on a hanger (this service includes both Dry Cleaning and Launder & Press).</p>
+                                <p class="pt-5">Enjoy premium cleaning from the comfort of your home and never go to the dry cleaners again.</p>
+                            </div>
+                        </div>
+
+                        <video width="500" height="240" autoplay muted class="md:block hidden rounded-md">
+                            <source src="/assets/videos/dry-cleaning.webm">
+                            Your browser does not support this video tag.
+                        </video>
+                    </div>
+
+                    <div class="flex flex-col md:flex-row justify-around items-center w-[99%] mt-20 md:gap-9 gap-0">
+                        <div class="flex flex-col justify-center items-center md:w-[25%] w-auto text-center mb-14">
+                            <img src="/assets/icons/services/Camera.svg" alt="Trust" width="50">
+                            <h1 class="text-lg font-bold p-3">Photo Inventory</h1>
+                            <p class="text-base leading-6">After picking up your clothes from us, we'll send you a well detailed email with a photo of each item that is in our care.</p>
+                        </div>
+                        <div class="flex flex-col justify-center items-center md:w-[25%] w-auto text-center mb-14">
+                            <img src="/assets/icons/services/Sparkling.svg" alt="Trust" width="50">
+                            <h1 class="text-lg font-bold p-3">Stain inspection</h1>
+                            <p class="text-base leading-6">Our “spotters” have decades of experience in identifying and treating stains with their acquired knowledge of organic chemistry.</p>
+                        </div>
+                        <div class="flex flex-col justify-center items-center md:w-[25%] w-auto text-center mb-14">
+                            <img src="/assets/icons/services/Content.svg" alt="Trust" width="50">
+                            <h1 class="text-lg font-bold p-3">Expert care</h1>
+                            <p class="text-base leading-6">We follow the care label (and know what all the symbols mean!) so your clothes receive the optimal cleaning treatment.</p>
+                        </div>
+                        <div class="flex flex-col justify-center items-center md:w-[25%] w-auto text-center mb-14">
+                            <img src="/assets/icons/services/Clothes.svg" alt="Trust" width="50">
+                            <h1 class="text-lg font-bold p-3">Pressed and hung</h1>
+                            <p class="text-base leading-6">Your clothes are crisply folded and your socks are paired, ready to be put away upon delivery, anytime, anywhere.</p>
                         </div>
                     </div>
-
-                    <video width="500" height="240" autoplay muted class="md:block hidden rounded-md">
-                        <source src="/assets/videos/dry-cleaning.webm">
-                        Your browser does not support this video tag.
-                    </video>
                 </div>
+            {:else if activeItem === 'House Cleaning'}
+                <div class="flex flex-col justify-center items-center md:mt-20 mt-10 w-[93%]">
+                    <div class="flex justify-between items-center md:flex-row flex-col">
+                        <div class="md:text-left text-center">
+                            <h1 class="text-3xl font-bold py-4">{activeItem}</h1>
+                            <div class="md:w-3/4 w-auto mt-3">
+                                <p>We've built a reputation as a leading provider of commercial and residential cleaning solution in the industry. Our solutions are designed to solve the mild to heavy dirt management problems that individuals, families and corporate organizations face.</p>
+                                <p class="pt-5">Our hands-on approach, coupled with our experience, our attention to details and the professionalism exhibited by management, employees and our commitment to customer satisfaction, sets us apart.</p>
+                            </div>
+                        </div>
 
-                <div class="flex flex-col md:flex-row justify-around items-center w-[99%] mt-20 md:gap-9 gap-0">
-                    <div class="flex flex-col justify-center items-center md:w-[25%] w-auto text-center mb-14">
-                        <img src="/assets/icons/services/Search.svg" alt="Trust" width="50">
-                        <h1 class="text-lg font-bold p-3">Detailed Inspection</h1>
-                        <p class="text-base leading-6">Your pockets and clothes are inspected (so nothing ends up in the wash that shouldn't) before being placed in their own machine.</p>
-                    </div>
-                    <div class="flex flex-col justify-center items-center md:w-[25%] w-auto text-center mb-14">
-                        <img src="/assets/icons/services/Sparkling.svg" alt="Trust" width="50">
-                        <h1 class="text-lg font-bold p-3">Premium cleaning</h1>
-                        <p class="text-base leading-6">Your lights and darks are separated and all your clothes are washed using cold water to preserve color (and save energy).</p>
-                    </div>
-                    <div class="flex flex-col justify-center items-center md:w-[25%] w-auto text-center mb-14">
-                        <img src="/assets/icons/services/Content.svg" alt="Trust" width="50">
-                        <h1 class="text-lg font-bold p-3">Your preferences</h1>
-                        <p class="text-base leading-6">Need hypoallergenic detergent? 
-                            No problem — just select the laundry preferences that are right for you.</p>
-                    </div>
-                    <div class="flex flex-col justify-center items-center md:w-[25%] w-auto text-center mb-14">
-                        <img src="/assets/icons/services/Clothes.svg" alt="Trust" width="50">
-                        <h1 class="text-lg font-bold p-3">Neatly folded</h1>
-                        <p class="text-base leading-6">Your clothes are crisply folded and your socks are paired, ready to be put away upon delivery, anytime, anywhere.</p>
+                        <img src="/assets/images/homeclean.jpg" alt="house cleaning" class="rounded-lg md:mt-0 mt-10" width="500">
                     </div>
                 </div>
-            </div>
             {/if}
 
         </div>
