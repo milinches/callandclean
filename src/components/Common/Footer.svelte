@@ -47,7 +47,7 @@
 				</div>
 				<p class="text-base text-black pb-3"><a href="/faqs">FAQs</a></p>
 				<p class="text-base text-black pb-3">Blog</p>
-				<p class="text-base text-black pb-3">Contact Us</p>
+				<p class="text-base text-black pb-3"><a href="/contact-us">Contact Us</a></p>
 				<p class="text-base text-black pb-3">Terms & Conditions</p>
 				<p class="text-base text-black pb-3">Privacy Policy</p>
 			</div>

@@ -2,7 +2,7 @@
 	const navItems = [
 		{ name: 'Why Us?', link: '/whyus' },
 		{ name: 'Services and Pricing', link: '/services-pricing' },
-		{ name: 'Contact Us?', link: '/' }
+		{ name: 'Contact Us?', link: '/contact-us' }
 	];
 
     let open = false
